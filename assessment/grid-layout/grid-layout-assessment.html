@@ -45,9 +45,17 @@
     /* Your code starts here */
     /* CODE AREA */
 
-    .container {}
+    .container {
+      display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr;
+    }
 
-    .a {}
+    .a {
+      /* order:4; */
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
 
     /* END CODE AREA */
   </style>
